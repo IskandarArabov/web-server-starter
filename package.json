@@ -1,12 +1,14 @@
 {
-  "name": "starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "web-server-starter",
+    "module": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "bun run --watch index.js"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
 }
